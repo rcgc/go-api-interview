@@ -15,8 +15,9 @@
 * <b>¿Qué es "struct"?</b>
   * Una estructura es una coleción de campos (variables), los cuales dependiendo de su nivel de accesso (público o privado) podrán ser accedidos con el operador del punto `.` o algún receiver (método)
 * <b>¿Qué es "goroutine"?</b>
-  * Es la unidad de trabajo empleada en golang al momento de usar concurrencia, se crean anteponiendo la palabra reservada `go` al llamado de alguna función. Las gorutinas al ser un híbrido entre proceso (process) e hilo (thread), consumen pocos recursos al momento de crearse
+  * Es la unidad de trabajo empleada en golang al momento de usar concurrencia, se crean anteponiendo la palabra reservada `go` al llamado de alguna función. Las gorutinas al ser un híbrido entre proceso (process) e hilo (thread), consumen pocos recursos al momento de crearse[1]
 
 ## Descripción API
 
 ## Referencias
+[1] J. Cutajar, Learn Concurrent Programming with Go. Manning Publications Co. LLC, 2024.<br>
